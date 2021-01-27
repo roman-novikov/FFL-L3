@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* Стили обнуления из курса*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=PT+Serif:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* --------------- */
+body {
+  font-family: "Montserrat";
+}
+
+.header__title a, .header__subtitle {
+  color: gray;
+}
+
+.main__title {
+  color: maroon;
+}
+.main__title ~ div {
+  color: red;
+}
+.main__title + div {
+  color: chocolate;
+}
+.article span {
+  color: black;
+}
+.article .article__text.text-1 {
+  color: darkorange;
+}
+.article .article__text.text-2 {
+  color: darkorchid;
+}
+.article .article__text.text-2 span {
+  color: deeppink;
+}
+.article__text.text-3 > span {
+  color: blue;
+}
+.article__list span {
+  color: coral;
+}
+.article__list > * {
+  color: gold;
+}
+
+h2.size-2 {
+  color: dodgerblue;
+}
+
+img + h3 {
+  color: darkolivegreen;
+}
+
+h3 + p {
+  color: darkred;
+}
+
+.text-4 span {
+  color: lawngreen;
+}
+
+.text-5,
+.text-6 {
+  color: olive;
+}
+
+.text-5 span,
+.text-6 span {
+  color: orangered;
+}
+
+h4 {
+  color: sienna;
+}
+
+h4 ~ p {
+  color: teal;
+}
+
+#img-3 + p {
+  color: goldenrod;
+}
+
+.footer__copy {
+  color: purple;
+}
+.footer__copy a {
+  color: royalblue;
+}
